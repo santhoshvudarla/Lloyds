@@ -11,7 +11,7 @@ pipeline {
 
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
 
-        file(name: "FILE", defaultValue: 'file.properties', description: "Choose a file to upload")
+        file(name: 'FILE', defaultValue: 'file.properties', description: "Choose a file to upload")
     }
     stages {
         stage('Example') {
