@@ -10,6 +10,8 @@ pipeline {
         choice(name: 'CHOICE', choices: ['One', 'Two', 'Three', 'Four','five'], description: 'Pick from dropdown')
 
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
+        
+          file(name: "FILE", defaultValue: 'file.properties', description: "Choose a file to upload")
 
             }
     stages {
